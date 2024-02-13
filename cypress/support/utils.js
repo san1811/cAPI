@@ -38,3 +38,5 @@ export function getTomorrowTimestamp(hour, minute, timezoneOffset) {
   const adjustedDate = new Date(tomorrowDate.getTime() - (timezoneOffset * 60000));
   return adjustedDate.toISOString().slice(0, -5) + "+05:30";
 }
+
+export let auth = "ya29.a0AfB_byD0J8Ca2I9gDHRtrZzFnJW5hlQcpUBx63KlYJR7h50MLC0qwTTalqk_Tep8lX3HNv42IA-gezk9OCXBcaOfF0vRO3UOREhMvWIK0pv1LApAP1hPFgp02a4D0Dul2QT2EE8CN-_lEeHqhbHtpgDsPFT7eMOuFLfy4c0aCgYKARoSARESFQHGX2MihriChe4R-QeSfjM-bwlarQ0174";
